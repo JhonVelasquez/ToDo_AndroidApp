@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="40dp"
+    android:orientation="horizontal"
+    android:background="@drawable/item_background"
+
+    >
+
+    <TextView
+        android:id="@+id/activity_item_hour"
+        style="@style/item_hour_style"
+        android:layout_width="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/activity_item_id"
+        style="@style/item_text_index"
+        android:layout_width="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/activity_item_text"
+        style="@style/item_text_style"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/activity_item_hour"
+        android:layout_centerVertical="true"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        >
+        <ImageView
+            android:id="@+id/activity_trash_id"
+            android:layout_width="@dimen/item_trash_size"
+            android:layout_height="@dimen/item_trash_size"
+            android:src="@drawable/trash_delete"
+            android:scaleType="fitCenter"
+            android:padding="1dp"
+            android:visibility="gone"
+            >
+        </ImageView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

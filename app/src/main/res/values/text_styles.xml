@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title_app">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:text">"ToDo"</item>
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">21dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+    android:paddingStart="5sp"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp"
+    android:paddingEnd="5sp"
+
+    <style name="fecha_hora_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/fecha_hora_text_size</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingTop">5sp</item>
+    </style>
+
+    <style name="fecha_hora_input_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/fecha_hora_text_input_size</item>
+        <item name="android:paddingTop">5sp</item>
+    </style>
+
+    <style name="item_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/item_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">2sp</item>
+        <item name="android:paddingEnd">5sp</item>
+    </style>
+
+    <style name="item_text_index">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/item_text_index_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">3dp</item>
+        <item name="android:paddingEnd">3dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="item_hour_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/item_text_hour_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">3dp</item>
+    </style>
+
+    <style name="Card_off_title" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:text">"Aca va el texto"</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">21dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Card_on_title" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="Card_on_description" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColor">#F2F3F4</item>
+        <item name="android:textSize">11.5dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Card_on_subtitles" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">21dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name= "android:includeFontPadding">false</item>>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="Card_on_velocity" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#F2F3F4</item>
+        <item name="android:textSize">10sp</item>
+        <item name= "android:includeFontPadding">false</item>>
+    </style>
+
+
+    <style name="Card_on_recommend" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#F2F3F4</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name= "android:includeFontPadding">false</item>>
+
+    </style>
+
+    <style name="Card_play_demo" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name= "android:includeFontPadding">false</item>>
+    </style>
+
+</resources>

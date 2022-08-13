@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10sp">
+
+    <TextView
+        android:id="@+id/id_item_edit_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+    </TextView>
+
+
+    <LinearLayout
+        android:id="@+id/linear_fecha_hora_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        >
+        <TextView
+            android:background="@color/main_background_color"
+            android:text="Fecha: "
+            style="@style/fecha_hora_style"
+            />
+        <EditText
+            android:id="@+id/input_text_fecha_add"
+            android:layout_width="120dp"
+            style="@style/fecha_hora_input_style"
+            >
+        </EditText>
+        <TextView
+            android:background="@color/main_background_color"
+            android:text="Hora: "
+            style="@style/fecha_hora_style"
+            />
+        <EditText
+            android:id="@+id/input_text_hora_add"
+            android:layout_width="70dp"
+            style="@style/fecha_hora_input_style">
+        </EditText>
+        <ImageButton
+            android:id="@+id/button_arrow_fecha_hora_add"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/arrow_down_1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:backgroundTint="@color/purple_500"
+            android:tint="@color/white"
+            >
+        </ImageButton>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/input_text_titulo_add"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+
+        ></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido"
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/input_text_contenido_add"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        ></EditText>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="ADD"
+        ></Button>
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/main_background_color"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:id="@+id/linear_layout_list_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/linear_fecha_hora_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:id="@+id/text_fecha"
+                android:background="@color/main_background_color"
+                android:text="Fecha: "
+                style="@style/fecha_hora_style"
+                />
+            <EditText
+                android:id="@+id/text_input_fecha"
+                android:layout_width="120dp"
+                style="@style/fecha_hora_input_style"
+                >
+            </EditText>
+            <TextView
+                android:id="@+id/text_hora"
+                android:background="@color/main_background_color"
+                android:text="Hora: "
+                style="@style/fecha_hora_style"
+                />
+            <EditText
+                android:id="@+id/text_input_hora"
+                android:layout_width="120dp"
+                style="@style/fecha_hora_input_style">
+            </EditText>
+            <ImageButton
+                android:id="@+id/button_arrow_fecha_hora_add"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/arrow_down_1"
+                android:scaleType="fitCenter"
+                android:padding="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:backgroundTint="@color/purple_500"
+                android:tint="@color/white"
+                >
+            </ImageButton>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_activities"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:dividerHeight="10dp"
+            android:layout_height="wrap_content"
+            android:divider="@color/main_background_color"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="2  0dp"
+            android:gravity="right">
+
+            <ImageButton
+                app:backgroundTint="@null"
+                android:src="@drawable/add_v2"
+                android:id="@+id/button_add_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:background="@drawable/round_button"
+                android:scaleType="fitCenter"
+                android:padding="10dp"
+                >
+
+            </ImageButton>
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
