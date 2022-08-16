@@ -82,7 +82,7 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="40dp"
-            android:layout_marginBottom="2  0dp"
+            android:layout_marginBottom="20dp"
             android:gravity="right">
 
             <ImageButton
